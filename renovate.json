@@ -12,7 +12,7 @@
 		"helpers:oddIsUnstablePackages"
 	],
 	"onboarding": false,
-	"pinVersions": false,
+	"pinVersions": true,
 	"semanticCommits": true,
 	"timezone": "US/Central",
 	"baseBranch": "main"
