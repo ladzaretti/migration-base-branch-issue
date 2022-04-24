@@ -8,12 +8,13 @@
 		":automergeDisabled",
 		":maintainLockFilesDisabled",
 		":autodetectPinVersions",
-		"group:monorepos",
-		"helpers:oddIsUnstablePackages"
+		"group:monorepos"
 	],
 	"onboarding": false,
-	"pinVersions": false,
-	"semanticCommits": true,
+	"rangeStrategy": "replace",
+	"semanticCommits": "enabled",
 	"timezone": "US/Central",
-	"baseBranch": "main"
+	"baseBranches": [
+		"main"
+	]
 }
