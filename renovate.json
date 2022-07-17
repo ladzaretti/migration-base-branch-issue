@@ -1,20 +1,12 @@
 {
-	"extends": [
-		":separateMajorReleases",
-		":prImmediately",
-		":renovatePrefix",
-		":semanticPrefixFixDepsChoreOthers",
-		":updateNotScheduled",
-		":automergeDisabled",
-		":maintainLockFilesDisabled",
-		":autodetectPinVersions",
-		"group:monorepos"
-	],
+	"extends": [":maintainLockFilesDisabled"],
 	"onboarding": false,
-	"rangeStrategy": "replace",
-	"semanticCommits": "enabled",
+	"pinVersions": false,
+	"semanticCommits": true,
 	"timezone": "US/Central",
-	"baseBranches": [
-		"main"
-	]
+	"baseBranch": "main",
+	"packageRules": [{
+		"packageNames": ["helm"],
+		"extractVersion": "^v(?<version>.*)$"
+	}]
 }
