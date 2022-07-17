@@ -1,5 +1,5 @@
 {
-  "extends": [":maintainLockFilesDisabled"],
+  "extends": ["config:base"],
   "onboarding": false,
   "pinVersions": false,
   "semanticCommits": true,
@@ -10,5 +10,8 @@
       "packageNames": ["helm"],
       "extractVersion": "^v(?<version>.*)$"
     }
-  ]
+  ],
+  "lockFileMaintenance": {
+    "enabled": false
+  }
 }
