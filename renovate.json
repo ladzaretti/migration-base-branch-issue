@@ -1,14 +1,14 @@
 {
-	"extends": [":maintainLockFilesDisabled"],
-	"onboarding": false,
-	"pinVersions": false,
-	"semanticCommits": true,
-	"timezone": "US/Central",
-	"baseBranch": "main",
-	"packageRules": [
-		{
-		"packageNames": ["helm"],
-		"extractVersion": "^v(?<version>.*)$"
-		}
-	]
+  "extends": [":maintainLockFilesDisabled"],
+  "onboarding": false,
+  "pinVersions": false,
+  "semanticCommits": true,
+  "timezone": "US/Central",
+  "baseBranch": "main",
+  "packageRules": [
+    {
+      "packageNames": ["helm"],
+      "extractVersion": "^v(?<version>.*)$"
+    }
+  ]
 }
