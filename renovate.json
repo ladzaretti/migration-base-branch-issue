@@ -1,6 +1,7 @@
 {
   "extends": ["config:base"],
-  "onboarding": false,
+  "onboarding":     false
+  ,
   "pinVersions": false,
   "semanticCommits": true,
   "timezone": "US/Central",
