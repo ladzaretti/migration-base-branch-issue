@@ -11,7 +11,5 @@
       "extractVersion": "^v(?<version>.*)$"
     }
   ],
-  "lockFileMaintenance": {
-    "enabled": false
-  }
+  "lockFileMaintenance": {"enabled": false}
 }
