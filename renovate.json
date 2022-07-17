@@ -5,8 +5,10 @@
 	"semanticCommits": true,
 	"timezone": "US/Central",
 	"baseBranch": "main",
-	"packageRules": [{
+	"packageRules": [
+		{
 		"packageNames": ["helm"],
 		"extractVersion": "^v(?<version>.*)$"
-	}]
+		}
+	]
 }
