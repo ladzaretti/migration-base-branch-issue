@@ -1,0 +1,15 @@
+{
+  extends: ["config:base"],
+  lockFileMaintenance: {"enabled": false},
+  onboarding: false,
+  pinVersions: false,
+  semanticCommits: true,
+  timezone: "US/Central",
+  baseBranch: "main", // comment
+  packageRules: [
+    {
+      "packageNames": ["helm"],
+      "extractVersion": "^v(?<version>.*)$"
+    }
+  ]
+}
