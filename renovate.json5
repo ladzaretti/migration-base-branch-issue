@@ -8,8 +8,8 @@
   baseBranch: "main", // comment
   packageRules: [
     {
-      "packageNames": ["helm"],
-      "extractVersion": "^v(?<version>.*)$"
+      packageNames: ["helm"],
+      extractVersion: "^v(?<version>.*)$"
     }
   ]
 }
