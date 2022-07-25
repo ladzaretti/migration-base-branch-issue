@@ -9,9 +9,7 @@
   "rangeStrategy": "replace",
   "semanticCommits": "enabled",
   "timezone": "US/Central",
-  "baseBranches": [
-    "main"
-  ],
+  "baseBranche":"main",
   "packageRules": [
     {
       "matchPackageNames": [
