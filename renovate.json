@@ -1,7 +1,6 @@
 {
   "extends": [
-    "config:base"
-  ],
+    "config:base"],
   "lockFileMaintenance": {
     "enabled": false
   },
