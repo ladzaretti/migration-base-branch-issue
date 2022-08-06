@@ -8,7 +8,6 @@
 	"pinVersions": false,
   "semanticCommits": "enabled",
   "timezone": "US/Central",
-  "baseBranch":"main",
   "packageRules": [
     {
       "matchPackageNames": [
