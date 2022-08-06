@@ -5,7 +5,7 @@
     "enabled": false
   },
   "onboarding": false,
-  "rangeStrategy": "replace",
+	"pinVersions": false,
   "semanticCommits": "enabled",
   "timezone": "US/Central",
   "baseBranch":"main",
@@ -19,6 +19,5 @@
         "at any time"
       ]
     }
-    
   ]
 }
