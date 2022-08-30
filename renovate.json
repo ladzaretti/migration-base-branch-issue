@@ -4,6 +4,7 @@
   "lockFileMaintenance": {
     "enabled": false
   },
+  "configMigration": true,
   "onboarding": false,
 	"pinVersions": false,
   "semanticCommits": "enabled",
