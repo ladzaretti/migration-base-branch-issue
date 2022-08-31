@@ -1,15 +1,18 @@
 {
   "extends": [
-    "config:base"],
+    "config:base"
+  ],
   "lockFileMaintenance": {
     "enabled": false
   },
   "configMigration": true,
   "onboarding": false,
-	"pinVersions": false,
+  "rangeStrategy": "replace",
   "semanticCommits": "enabled",
   "timezone": "US/Central",
-  "baseBranches":["dev"],
+  "baseBranches": [
+    "dev"
+  ],
   "packageRules": [
     {
       "matchPackageNames": [
